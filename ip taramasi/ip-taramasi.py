@@ -70,7 +70,7 @@ devnull.close()
 
 print (star)
 
-print ("LOCAL NETWORK IP SCANNER. By GH0ST-SOFTWARE.")
+print ("Yerel Ağ İp Taraması - Namık Kemal Üniversitesi")
 
 print (star)
 
