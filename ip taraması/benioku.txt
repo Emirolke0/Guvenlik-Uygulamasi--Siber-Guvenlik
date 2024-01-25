@@ -1,0 +1,35 @@
+"***************************************")
+"*                                     *")
+"*     Web Güvenlik Tarayıcısı         *")
+"*      XSS - SQL injection            *")
+"*                  	               *")
+"*       <<< Emir Batın Ölke >>>       *")
+"*       <<<  Hakan Korkmaz  >>>       *")
+"*       <<<  Oktay Halidi   >>>       *")
+"*                                     *")
+"*                                     *")
+"*  <<< NAMIK KEMAL UNIVERSITESI >>>   *")
+"*                                     *")
+"* Bu araç yalnızca eğitim amaçlıdır   *")
+"* ve yasa dışı kullanımı yasaktır.    *")
+"*                                     *")
+ "***************************************" 
+-------------------------------------------------------------------------------------------
+Bu araç, ip taramasi yapip size açık olan ip'lerinizi gösterir. python ile yazilmiş olup
+terminalden kullanılabilir.
+-------------------------------------------------------------------------------------------
+Kullanmadan once bazi gereksinimler
+
+Gereksinimler:
+
+pirequests
+beautifulsoup4
+argparse
+colorama
+
+NOT: Yukaridaki gereksinimleri tek bir paket halinde olan requirements.txt ile kurabilirsiniz.
+
+pip install -r requirements.txt
+
+-----------------------------------------------------------------------------------------
+
